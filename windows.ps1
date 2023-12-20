@@ -20,6 +20,6 @@ $label.AutoSize = $true
 $win.Controls.Add($label)
 
 
-#show form
+#Show form
 $win.ShowDialog()
 $win.Dispose()
