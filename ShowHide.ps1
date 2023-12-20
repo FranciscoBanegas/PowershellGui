@@ -21,7 +21,6 @@ $button = New-Object System.Windows.Forms.Button
 $button.Location = New-Object System.Drawing.Point(220,200)
 $button.Text = 'Show/Hide'
 $button.AutoSize = $true
-
 $button.add_click({
   if($label.visible -eq $true){
     $label.visible = $false
@@ -29,11 +28,8 @@ $button.add_click({
     $label.visible = $true
   }
 })
-
-
 #add from
 $win.Controls.Addrange(@($label,$button))
-
 #show form
 $win.ShowDialog()
 $win.Dispose()
