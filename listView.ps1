@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 
-# Crear el formulario
+# Crear el formulario 
 $form = New-Object System.Windows.Forms.Form
 $form.Text = "ListView en PowerShell"
 $form.Size = "600,500"
@@ -110,4 +109,3 @@ $form.Controls.AddRange(@($lv,$btn))
 # Mostrar el formulario
 $form.ShowDialog()
 $form.Dispose()
->>>>>>> 2429cc249553058f11342a2fb4870b05104e4aa2
