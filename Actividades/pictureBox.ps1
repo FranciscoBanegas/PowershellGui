@@ -5,7 +5,7 @@ $form = New-Object System.Windows.Forms.Form -Property @{
     Font = "Comic Sans MS"
     Text = "Piture Box"
     Size = '500, 300'
-    TopMost = $true
+    TopMost = $true 
     BackgroundImage = $image
     BackgroundImageLayout = "Stretch"
 }
